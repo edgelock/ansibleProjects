@@ -4,9 +4,9 @@
       hosts: localhost
       gather_facts: no
       vars:
-        gcp_project: youtube-demo-255723
+        gcp_project: midyear-mason-301002
         gcp_cred_kind: serviceaccount
-        gcp_cred_file: ansible-svc.json
+        gcp_cred_file: midyear-mason-301002-9733bcc7e941
         zone: "us-central1-a"
         region: "us-central1"
         machine_type: "n1-standard-1"
